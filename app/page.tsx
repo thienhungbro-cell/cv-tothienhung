@@ -110,14 +110,7 @@ export default function CV() {
           <div className="rounded-lg border bg-white p-6">
             <section>
               <p className="text-sm text-gray-700">
-                As a developer, I have hands-on experience with various
-                technologies, focusing on delivering web solutions using
-                ReactJS. I have worked on developing user interfaces, creating
-                responsive websites, and integrating RESTful APIs. My experience
-                includes using React frameworks like Next.js and managing state
-                with tools such as Redux Toolkit. I am proficient with Git for
-                version control and have collaborated effectively with teams
-                using project management tools like JIRA and Trello.
+                A versatile Software Engineer with hands-on experience in building scalable web solutions across both ReactJS (Next.js, Redux Toolkit) and Vue.js (Nuxt.js) ecosystems. Adept at developing high-performance, responsive user interfaces, integrating type-safe/RESTful APIs, and optimizing web performance. Proficient in leveraging cutting-edge Agentic AI tools (Google Antigravity, Cursor) to maximize coding efficiency and streamline workflows. Proven track record of collaborating effectively within Scrum/Agile environments using Jira and Trello to deliver high-quality code.
               </p>
               <p className="mt-2 text-sm text-gray-700">
                 I am a fast learner, passionate about web development, and
@@ -185,9 +178,9 @@ export default function CV() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-2 flex">
+              <div className="mt-8 flex">
                 {/* Ảnh bên trái */}
-                <div className="mr-2 flex-shrink-0">
+                <div className="mr-2  flex-shrink-0">
                   <Image
                     src="/img/fidtvn.jpg"
                     alt="Description"
@@ -197,11 +190,12 @@ export default function CV() {
                     unoptimized
                   />
                 </div>
+
                 {/* Nội dung bên phải */}
                 <div className="flex-grow">
                   <div className="flex items-center">
                     <h2 className="text-base font-semibold">
-                      Fullstack developer at FIDT
+                      Fullstack Developer at FIDT
                     </h2>
                     <p className="ml-2 text-[#636363]">
                       (February 2025 to Present)
@@ -221,23 +215,7 @@ export default function CV() {
                       Optimize web performance and responsiveness, focusing on delivering a seamless user experience (UX).
                     </li>
                     <li className="mt-1 text-sm">
-                      Conduct thorough testing and debugging to ensure robust application performance and high scalability.
-                    </li>
-                  </ul><ul className="ml-4 list-disc text-[#636363]">
-                    <li className="mt-1 text-sm">
-                      Design and develop reactive web user interfaces following the MVVM architecture using Vue.js.
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Build high-performance, lightweight backend services using Hono and Node.js.
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Implement end-to-end type-safe APIs using oRPC to seamlessly bridge Frontend and Backend communication with zero-overhead.
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Optimize web performance and responsiveness, focusing on delivering a seamless user experience (UX).
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Conduct thorough testing and debugging to ensure robust application performance and high scalability.
+                      Establish robust testing strategies, including backend Unit Testing, API integration tests, and Frontend E2E testing using Playwright to ensure high scalability.
                     </li>
                   </ul>
                 </div>
@@ -321,6 +299,47 @@ export default function CV() {
               className="rounded p-2 font-medium text-[#108a00]"
             >
               https://www.muadee.com.vn/giam-den-100k-tren-zalopay-voi-the-tra-gop-muadee
+            </a>
+          </div>
+
+
+
+
+
+          <div className="mt-2 rounded-lg border bg-white p-6">
+            <div className="flex items-center justify-between p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">Wealth by FIDT </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  NuxtJS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Hono
+                </div>
+
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Deploy to Vercel
+                </div>
+              </div>
+            </div>
+                <h1 className="p-2 text-sm text-black">Wealth For Me</h1>
+            
+            <a
+              href="https://wealthforme.fidt.vn/suc-khoe-tai-chinh" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+             https://wealthforme.fidt.vn/suc-khoe-tai-chinh
+            </a>
+           <h1 className="p-2 text-sm text-black">Wealth Platform</h1>
+            <a
+              href="https://wealthforme.fidt.vn/bat-dong-san" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://wealthforme.fidt.vn/bat-dong-san
             </a>
           </div>
           <div className="mt-2 rounded-lg border bg-white p-6">
