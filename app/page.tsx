@@ -132,6 +132,48 @@ export default function CV() {
                   (2 year of experience){' '}
                 </span>
               </h2>
+               <div className="mt-8 mb-5 flex">
+                {/* Ảnh bên trái */}
+                <div className="mr-2  flex-shrink-0">
+                  <Image
+                    src="/img/fidtvn.jpg"
+                    alt="Description"
+                    width={48}
+                    height={48}
+                    className="mb-2 rounded-full object-cover w-12 h-12"
+                    unoptimized
+                  />
+                </div>
+
+                {/* Nội dung bên phải */}
+                <div className="flex-grow">
+                  <div className="flex items-center">
+                    <h2 className="text-base font-semibold">
+                      Fullstack Developer at FIDT
+                    </h2>
+                    <p className="ml-2 text-[#636363]">
+                      (February 2025 to Present)
+                    </p>
+                  </div>
+                  <ul className="ml-4 list-disc text-[#636363]">
+                    <li className="mt-1 text-sm">
+                      Design and develop reactive web user interfaces following the MVVM architecture using Vue.js.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Build high-performance, lightweight backend services using Hono and Node.js.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Implement end-to-end type-safe APIs using oRPC to seamlessly bridge Frontend and Backend communication with zero-overhead.
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Optimize web performance and responsiveness, focusing on delivering a seamless user experience (UX).
+                    </li>
+                    <li className="mt-1 text-sm">
+                      Establish robust testing strategies, including backend Unit Testing, API integration tests, and Frontend E2E testing using Playwright to ensure high scalability.
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <div className="mt-2 flex">
                 {/* Ảnh bên trái */}
                 <div className="mr-2 flex-shrink-0">
@@ -178,54 +220,50 @@ export default function CV() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-8 flex">
-                {/* Ảnh bên trái */}
-                <div className="mr-2  flex-shrink-0">
-                  <Image
-                    src="/img/fidtvn.jpg"
-                    alt="Description"
-                    width={48}
-                    height={48}
-                    className="mb-2 rounded-full object-cover w-12 h-12"
-                    unoptimized
-                  />
-                </div>
-
-                {/* Nội dung bên phải */}
-                <div className="flex-grow">
-                  <div className="flex items-center">
-                    <h2 className="text-base font-semibold">
-                      Fullstack Developer at FIDT
-                    </h2>
-                    <p className="ml-2 text-[#636363]">
-                      (February 2025 to Present)
-                    </p>
-                  </div>
-                  <ul className="ml-4 list-disc text-[#636363]">
-                    <li className="mt-1 text-sm">
-                      Design and develop reactive web user interfaces following the MVVM architecture using Vue.js.
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Build high-performance, lightweight backend services using Hono and Node.js.
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Implement end-to-end type-safe APIs using oRPC to seamlessly bridge Frontend and Backend communication with zero-overhead.
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Optimize web performance and responsiveness, focusing on delivering a seamless user experience (UX).
-                    </li>
-                    <li className="mt-1 text-sm">
-                      Establish robust testing strategies, including backend Unit Testing, API integration tests, and Frontend E2E testing using Playwright to ensure high scalability.
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              
             </section>
           </div>
           <div>
             <h1 className="mt-4 text-2xl font-semibold">Projects</h1>
           </div>
 
+
+          <div className="mt-2 rounded-lg border bg-white p-6">
+            <div className="flex items-center justify-between p-2">
+              {/* Left section: Ninza */}
+              <div>
+                <div className="text-sm font-bold">Wealth by FIDT </div>
+              </div>
+              {/* Right section: Other text items */}
+              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  NuxtJS
+                </div>
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Hono
+                </div>
+
+                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
+                  Deploy to Vercel
+                </div>
+              </div>
+            </div>
+                <h1 className="p-2 text-sm text-black">Wealth For Me</h1>
+            
+            <a
+              href="https://wealthforme.fidt.vn/suc-khoe-tai-chinh" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+             https://wealthforme.fidt.vn/suc-khoe-tai-chinh
+            </a>
+           <h1 className="p-2 text-sm text-black">Wealth Platform</h1>
+            <a
+              href="https://wealthforme.fidt.vn/bat-dong-san" // Đường dẫn đến liên kết
+              className="rounded p-2 font-medium text-[#108a00]"
+            >
+              https://wealthforme.fidt.vn/bat-dong-san
+            </a>
+          </div>
           <div className="mt-2 rounded-lg border bg-white p-6">
             <div className="flex items-center justify-between p-2">
               {/* Left section: Ninza */}
@@ -304,44 +342,7 @@ export default function CV() {
 
 
 
-
-
-          <div className="mt-2 rounded-lg border bg-white p-6">
-            <div className="flex items-center justify-between p-2">
-              {/* Left section: Ninza */}
-              <div>
-                <div className="text-sm font-bold">Wealth by FIDT </div>
-              </div>
-              {/* Right section: Other text items */}
-              <div className="hidden flex-wrap space-x-2 md:flex print:flex">
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  NuxtJS
-                </div>
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Hono
-                </div>
-
-                <div className="print-bg rounded-lg bg-[#E4EBE4] px-2 py-1 text-sm">
-                  Deploy to Vercel
-                </div>
-              </div>
-            </div>
-                <h1 className="p-2 text-sm text-black">Wealth For Me</h1>
-            
-            <a
-              href="https://wealthforme.fidt.vn/suc-khoe-tai-chinh" // Đường dẫn đến liên kết
-              className="rounded p-2 font-medium text-[#108a00]"
-            >
-             https://wealthforme.fidt.vn/suc-khoe-tai-chinh
-            </a>
-           <h1 className="p-2 text-sm text-black">Wealth Platform</h1>
-            <a
-              href="https://wealthforme.fidt.vn/bat-dong-san" // Đường dẫn đến liên kết
-              className="rounded p-2 font-medium text-[#108a00]"
-            >
-              https://wealthforme.fidt.vn/bat-dong-san
-            </a>
-          </div>
+ 
           <div className="mt-2 rounded-lg border bg-white p-6">
             <div className="flex items-center justify-between p-2">
               {/* Left section: Ninza */}
