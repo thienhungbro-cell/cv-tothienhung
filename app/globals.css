@@ -1,36 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #1e293b;
+    background-color: #f1f5f9;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
-body {
-  color: inherit;
-  background: var(--background);
-  font-family: "Noto Sans", sans-serif; /* Sử dụng Noto Sans */
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* Print Specific Rules for PDF Export */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 6mm 8mm;
   }
 
-  .noto-sans-bold {
-    font-family: "Noto Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700; /* Thay thế <weight> bằng giá trị thực tế */
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+  body {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    font-size: 9.5pt !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .print-avoid-break {
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+
+  .print-hidden {
+    display: none !important;
   }
 }
