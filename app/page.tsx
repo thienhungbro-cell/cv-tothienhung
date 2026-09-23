@@ -15,7 +15,7 @@ export default function CV() {
             <div className="mb-3 h-32 w-32 rounded-full border-4 border-[#3AB8FE] overflow-hidden shadow-xs flex-shrink-0 print:mb-0 print:h-20 print:w-20">
               <Image
                 src="/img/ato_2.jpg"
-                alt="Description"
+                alt="Hung To - Fullstack Developer"
                 width={128}
                 height={128}
                 className="h-full w-full object-cover"
@@ -61,7 +61,7 @@ export default function CV() {
               <div className="flex-shrink-0">
                 <Image
                   src="/img/1.jpg"
-                  alt="Description"
+                  alt="Axon Active Scrum Certificate Logo"
                   width={40}
                   height={40}
                   className="rounded-full object-cover w-10 h-10 border border-slate-200 print:w-8 print:h-8"
@@ -88,7 +88,7 @@ export default function CV() {
               <div className="flex-shrink-0">
                 <Image
                   src="/img/2.png"
-                  alt="Description"
+                  alt="Ho Chi Minh City University of Agriculture and Forestry Logo"
                   width={40}
                   height={40}
                   className="rounded-full object-cover w-10 h-10 border border-slate-200 print:w-8 print:h-8"
@@ -110,7 +110,7 @@ export default function CV() {
               <div className="flex-shrink-0">
                 <Image
                   src="/img/toeic.jpg"
-                  alt="Description"
+                  alt="TOEIC Certificate Logo"
                   width={40}
                   height={40}
                   className="rounded-full object-cover w-10 h-10 border border-slate-200 print:w-8 print:h-8"
@@ -137,7 +137,7 @@ export default function CV() {
           <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-xs print:border-slate-300 print:shadow-none print:p-3 print-avoid-break">
             <section className="text-sm text-slate-700 leading-relaxed print:text-xs">
               <p>
-                A results-driven <span className="font-semibold text-slate-900">Fullstack Developer</span> with 3 years of hands-on experience building scalable, high-performance web applications across both <span className="font-semibold text-slate-900">Vue.js (Nuxt.js)</span> and <span className="font-semibold text-slate-900">ReactJS (Next.js)</span> ecosystems. Adept at developing responsive UI, architecting lightweight backend services, integrating type-safe/RESTful APIs, and optimizing system performance. Skilled in leveraging <span className="font-semibold text-slate-900">Generative AI &amp; modern AI-assisted workflows</span> to maximize engineering velocity while maintaining clean, robust code within Scrum/Agile environments.
+                A results-driven <span className="font-semibold text-slate-900">Fullstack Developer</span> with 2+ years of hands-on experience building scalable, high-performance web applications across both <span className="font-semibold text-slate-900">Vue.js (Nuxt.js)</span> and <span className="font-semibold text-slate-900">ReactJS (Next.js)</span> ecosystems. Adept at developing responsive UI, architecting lightweight backend services, integrating type-safe/RESTful APIs, and optimizing system performance. Skilled in leveraging <span className="font-semibold text-slate-900">Generative AI &amp; modern AI-assisted workflows</span> to maximize engineering velocity while maintaining clean, robust code within Scrum/Agile environments.
               </p>
             </section>
           </div>
@@ -153,7 +153,7 @@ export default function CV() {
                 <h3 className="mb-4 text-base font-semibold text-slate-800 border-b border-slate-100 pb-2 print:mb-2 print:pb-1 print:text-sm">
                   Work history{' '}
                   <span className="text-xs sm:text-sm font-normal text-slate-500">
-                    (3 years of experience)
+                    (2+ years of experience)
                   </span>
                 </h3>
 
@@ -162,7 +162,7 @@ export default function CV() {
                   <div className="flex-shrink-0">
                     <Image
                       src="/img/fidtvn.jpg"
-                      alt="Description"
+                      alt="FIDT Company Logo"
                       width={48}
                       height={48}
                       className="rounded-lg object-cover w-12 h-12 border border-slate-200 print:w-10 print:h-10"
@@ -253,7 +253,7 @@ export default function CV() {
                   <div className="flex-shrink-0">
                     <Image
                       src="/img/muadee.png"
-                      alt="Description"
+                      alt="Muadee by HDBank Logo"
                       width={48}
                       height={48}
                       className="rounded-lg object-cover w-12 h-12 border border-slate-200 print:w-10 print:h-10"
@@ -400,7 +400,7 @@ export default function CV() {
                 <div className="flex-shrink-0">
                   <Image
                     src="/img/2.png"
-                    alt="Description"
+                    alt="Ho Chi Minh City University of Agriculture and Forestry Logo"
                     width={48}
                     height={48}
                     className="rounded-lg object-cover w-12 h-12 border border-slate-200 print:w-10 print:h-10"
@@ -425,7 +425,7 @@ export default function CV() {
                 <div className="flex-shrink-0">
                   <Image
                     src="/img/1.jpg"
-                    alt="Description"
+                    alt="Axon Active Scrum Certificate Logo"
                     width={48}
                     height={48}
                     className="rounded-lg object-cover w-12 h-12 border border-slate-200 print:w-10 print:h-10"
